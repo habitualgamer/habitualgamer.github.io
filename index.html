@@ -16,10 +16,12 @@ paginate: true
 	
 	</p>
   </p><p>{{ post.excerpt }}</p>
-<a href="{{post.url}}"><i>Read More</i></a>
+<div><a href="{{post.url}}"><i>Read More</i></a></div>
 {% endfor %} 
 
-<!-- Pagination links -->
+<!-- COMMENTING PAGINATION UNTIL I HAVE MORE THAN 5 POSTS
+
+ Pagination links 
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -32,4 +34,4 @@ paginate: true
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div></div>
+</div>--></div>
