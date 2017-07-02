@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gaming Blog</title>
+<title>Habitual Gamer</title>
 <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
@@ -15,11 +15,21 @@
 <style>
 h1  {
     font-family: 'Anton'; 
+	font-size: 75px;
+}
+h2  {
+    font-family: 'Anton'; 
 	font-size: 35px;
 }
-
 h4{ 
 font-family: 'Anton';
+}
+
+.homelink{
+
+font-size: 20px;
+margin:auto;
+
 }
 
 .bg1{
@@ -42,6 +52,13 @@ img {
 	padding-bottom:15px;
 }
 
+iframe{
+
+padding-top:15px;
+	padding-bottom:15px;
+display: block;
+margin: 0 auto;
+}
 
 
 p { font-size:20px;
@@ -50,9 +67,7 @@ p { font-size:20px;
 	
 }
 
-h1 h4 {
-font-family: 'Anton';
-}
+
 
 h3{
 	font-style: italic;
@@ -67,12 +82,19 @@ background-color:black;
 margin-right:25px;
  line-height: 200%;
 }
+body { padding-top: 70px; }
+
+
 </style>
 </head>
 
 
 
 <body>
+
+
+
+<!-- Facebook comments -->
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -92,20 +114,25 @@ margin-right:25px;
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+<!--End facebook comments-->
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container-fluid">
 
-<ul class="nav navbar-nav">
-    <li><a href="{{site.url}}">Home</a></li>
-	<li><a href="#">About</a></li>
+<ul class="nav navbar-nav navbar-left">
+    <li><a href="{{site.url}}" class="homelink">Home</a></li>
+	<!--<li><a href="#">About</a></li>-->
 </ul>
+
+ <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://www.facebook.com/rajiblaze/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+    </ul>
 </div>
 </nav>
 
 <section class="container-fluid bg1" id="blogheader">
 
-<h1>A Habitual Gamer</h1>
+<h1>Habitual Gamer</h1>
 <h4>The gaming world. According to me</h4>
 </section>
 
@@ -115,11 +142,11 @@ margin-right:25px;
       </div>
     </main>
 
+
   <section class="footer">
 <footer class="container-fluid" id="contact" align="center">
  
-  <a href="https://www.pinterest.com/jamaalsands/"><i class="fa fa-pinterest-p"></i></a>
-  <a href="https://www.linkedin.com/in/jamaal-sands-31381aba/"><i class="fa fa-linkedin"></i></a>
+  <h4>© 2017 A Rajiblaze Production</h4>
   
   
 </footer>
