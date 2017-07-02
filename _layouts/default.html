@@ -7,18 +7,20 @@
 <title>Gaming Blog</title>
 <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/index.css">
-<script type="text/javascript" src="js/index.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
-h1, h4 {
+h1  {
     font-family: 'Anton'; 
+	font-size: 35px;
 }
 
-
+h4{ 
+font-family: 'Anton';
+}
 
 .bg1{
 background-color: red;
@@ -32,15 +34,17 @@ text-align:center;
 background-color:#1FB216;
 }
 
-
-
-img{
-width: 75%;
-padding: 10px;
-
+img {
+    display: block;
+    margin: auto;
+    width: 75%;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
-.section { font-size:40;
+
+
+p { font-size:20px;
 
 
 	
@@ -60,21 +64,40 @@ background-color:black;
 
 
 #blogpost{
-padding-right: 300px;
-padding-left:300px;
-padding-top: 20px;
-padding-bottom: 20px;
+margin-right:25px;
+ line-height: 200%;
 }
 </style>
 </head>
-<body>
 
+
+
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '793802020679428',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container-fluid">
 
 <ul class="nav navbar-nav">
-    <li><a href="#">Home</a></li>
+    <li><a href="{{site.url}}">Home</a></li>
 	<li><a href="#">About</a></li>
 </ul>
 </div>
