@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HGN - Reviews, News, and Opinion Pieces</title>
