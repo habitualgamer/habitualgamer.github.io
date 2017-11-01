@@ -26,7 +26,7 @@ defaults:
       author: "Rajiblaze"
       
 
-plugins: [jekyll-paginate]
+#plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
@@ -55,11 +55,8 @@ plugins:
   - jekyll-seo-tag
   
   
- #social:
-  #  name: Rajiblaze
-   # links:
-    #    - https://twitter.com/Rajiblaze
-     #   - https://www.facebook.com/Rajiblaze
+
+    
 #
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
