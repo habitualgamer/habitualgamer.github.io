@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
+{% if page.date_modified %}
+{% assign modified = page.date_modified %}
+{% else %}
+{% assign modified = page.date %}
+{% endif %}
+
+
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
