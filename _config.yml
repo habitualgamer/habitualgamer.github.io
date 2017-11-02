@@ -22,7 +22,8 @@ defaults:
   - values:
        author: "Rajiblaze"
       
-
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+      
 #plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
@@ -50,10 +51,11 @@ social_links: -https://twitter.com/rajiblaze
 # Build settings
 markdown: kramdown
 #theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
+#plugins:
+ 
+# - jekyll-feed
+ # - jekyll-paginate
+  #- jekyll-seo-tag
   
   
 
