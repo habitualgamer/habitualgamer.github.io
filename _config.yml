@@ -56,7 +56,10 @@ markdown: kramdown
 # - jekyll-feed
  # - jekyll-paginate
   #- jekyll-seo-tag
-  
+
+#google site verification
+google-site-verification: google53984e88401cbf0d.html
+ 
   
 
     
