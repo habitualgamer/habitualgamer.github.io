@@ -22,12 +22,12 @@ defaults:
   - values:
        author: "Rajiblaze"
       
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+
       
 #plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
-
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Habitual Gaming Network
@@ -53,7 +53,7 @@ markdown: kramdown
 #theme: minima
 #plugins:
  
-# - jekyll-feed
+#- jekyll-sitemap
  # - jekyll-paginate
   #- jekyll-seo-tag
 
