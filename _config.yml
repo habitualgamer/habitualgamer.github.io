@@ -30,7 +30,7 @@ paginate_path: "page:num"
 plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-#title: Habitual Gaming Network
+title: Habitual Gaming Network
 #email: your-email@example.com
 description: Gaming news, reviews, thoughts. Also some gaming hardware highlights.
 # this means to ignore newlines until "baseurl:"
