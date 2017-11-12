@@ -25,7 +25,7 @@ defaults:
 
       
 #plugins: [jekyll-paginate]
-paginate: 5
+paginate: 8
 paginate_path: "page:num"
 plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
 # You can create any custom variable you would like, and they will be accessible
