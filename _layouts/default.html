@@ -96,6 +96,8 @@ p { font-size:20px;
 	
 }
 
+#pp{font-size:12px;}
+
 video {
    ;
 }
@@ -232,13 +234,15 @@ margin-right:25px;
         <span class="icon-bar"></span> 
       </button>
      <a class="navbar-brand homelink" href="{{site.url}}">HGN</a>
+	 
     </div>
 	<div class="collapse navbar-collapse" id="myNavbar">
 	<ul class="nav navbar-nav navbar-left">
 	   <!-- <li><a href="{{site.url}}" class="homelink">Home</a></li> -->
 		<!--<li><a href="#">About</a></li>-->
+		<li><a href="#Subs">Subscribe</a></li>
 	</ul>
- 
+        
 	<ul class="nav navbar-nav navbar-right">
 		<li><a href="https://www.facebook.com/rajiblaze/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
 		<li><a href="https://twitter.com/rajiblaze"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
@@ -249,6 +253,7 @@ margin-right:25px;
 	</div>
 </div>
 </nav>
+
 
 </header>
 
@@ -263,7 +268,10 @@ margin-right:25px;
         {{ content }}
       </div>
     </main>
+	
 
+ <form  id="Subs" style="<!--border:1px solid #ccc;-->padding:3px;text-align:center;" action="https://tinyletter.com/rajiblaze" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rajiblaze', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p id="pp"><label for="tlemail">Subscribe to HGN Newsletter!</label></p><input type="text" style="width:140px" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>&nbsp;&nbsp;<input type="submit" value="Subscribe" /><p ><a id="pp" href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+         
 
   <section class="footer">
 <footer class="container-fluid" id="contact" align="center">
