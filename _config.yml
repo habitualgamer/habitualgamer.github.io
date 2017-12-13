@@ -17,11 +17,16 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 
-defaults:
-  - values:
-       author: "Rajiblaze"
+#defaults:
+#  - values:
+#       author: "Rajiblaze"
       
-
+defaults:
+-
+scope:
+path: "" 
+values:
+layout: "default"
       
 #plugins: [jekyll-paginate]
 paginate: 8
