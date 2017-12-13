@@ -17,7 +17,6 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 
-<<<<<<< HEAD
 #defaults:
 #  - values:
 #       author: "Rajiblaze"
@@ -28,16 +27,6 @@ scope:
 path: "" 
 values:
 layout: "default"
-=======
-defaults:
-  - values:
-       author: "Rajiblaze"
-   scope:
-   path: "" # an empty string here means all files in the project
-   values:
-   layout: "default"
-
->>>>>>> 10459c696e91c643d5e43bc70628b361aefd511b
       
 #plugins: [jekyll-paginate]
 paginate: 8
