@@ -1,6 +1,6 @@
 ---
+title: 'Tag: halloween'
 layout: tagpage
-title: "Tag: halloween"
 tag: halloween
 ---
 

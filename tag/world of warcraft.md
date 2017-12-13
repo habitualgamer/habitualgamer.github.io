@@ -1,6 +1,6 @@
 ---
+title: 'Tag: world of warcraft'
 layout: tagpage
-title: "Tag: world of warcraft"
-tag: world 
+tag: world
 ---
 

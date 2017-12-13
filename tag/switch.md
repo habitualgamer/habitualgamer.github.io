@@ -1,6 +1,6 @@
 ---
+title: 'Tag: switch'
 layout: tagpage
-title: "Tag: switch"
 tag: switch
 ---
 

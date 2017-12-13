@@ -1,6 +1,6 @@
 ---
+title: 'Tag: odyssey'
 layout: tagpage
-title: "Tag: odyssey"
 tag: odyssey
 ---
 

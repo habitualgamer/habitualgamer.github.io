@@ -1,6 +1,6 @@
 ---
+title: 'Tag: mario'
 layout: tagpage
-title: "Tag: mario"
 tag: mario
 ---
 

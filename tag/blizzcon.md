@@ -1,6 +1,6 @@
 ---
+title: 'Tag: blizzcon'
 layout: tagpage
-title: "Tag: blizzcon"
 tag: blizzcon
 ---
 

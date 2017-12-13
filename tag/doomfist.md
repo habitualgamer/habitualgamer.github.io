@@ -1,6 +1,6 @@
 ---
+title: 'Tag: doomfist'
 layout: tagpage
-title: "Tag: doomfist"
 tag: doomfist
 ---
 
