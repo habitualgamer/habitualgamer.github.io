@@ -27,6 +27,7 @@ scope:
 path: "" 
 values:
 layout: "default"
+author: "Rajiblaze"
       
 #plugins: [jekyll-paginate]
 paginate: 8
