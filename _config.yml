@@ -20,13 +20,14 @@
 #defaults:
 #  - values:
 #       author: "Rajiblaze"
-      
 defaults:
--
-scope:
-path: "" 
-values:
-layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      
+
 author: "Rajiblaze"
       
 #plugins: [jekyll-paginate]
